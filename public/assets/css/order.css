@@ -1,0 +1,115 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: rgb(255, 254, 254);
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color:rgb(53, 13, 228);
+}
+
+a:hover{
+    color:  #e77314;
+    
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #fcc95c;
+    color: rgb(245, 242, 239);
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: rgb(20, 20, 20);
+    background-color: #ff9900;
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+/* for Order Section */
+body{
+    background-image: url(../images/front.jpg);
+    background-size: cover;
+}
+.food-search .container .order {
+    
+    background-color:rgb(233, 229, 221);
+    
+}
+form{
+  
+    border-radius: 50px 50px;
+}
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+.order:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}    

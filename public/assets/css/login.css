@@ -1,0 +1,75 @@
+
+html,body{
+background-image: url('../front.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height:400px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color:rgb(245, 233, 210);
+}
+
+
+.card-header h3{
+color: rgb(15, 15, 15);
+}
+
+
+.input-group-prepend span{
+width: 50px;
+background-color: #f1be32;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: rgb(14, 13, 13);
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #f1be32;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: #e77314;
+}
+
+.links{
+color: rgb(10, 10, 10);
+}
+
+.links a{
+margin-left: 4px;
+}
+form .card-footer a{
+    color: red;
+}
